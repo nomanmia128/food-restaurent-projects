@@ -42,6 +42,7 @@ font-weight: 700;
 line-height: 50px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 14px;
 }
 
 #hero .hero-contant .description{
@@ -53,5 +54,107 @@ line-height: 16px;
 letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
+margin-bottom: 32px;
+}
+
+.btn-continer{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+   
+}
+.btn{
+    padding: 14px 18px 14px 18px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    margin-bottom: 5px;
+}
+
+
+#card-box{
+    width: 884px;
+    margin: 100px auto;
+}
+
+#card-box .title{
+ color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.card-container{
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+    /* justify-content: space-between; */
+    font-family: Work Sans;
+
+}
+
+.card{
+    box-shadow: 5px 5px 5px 10px rgb(235, 231, 236);
+
+    max-width: 284px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .image-box{
+    width: 284px;
+}
+
+.card .image-box img{
+    width: 100%;
+}
+
+.card .shop{
+    border-radius: 4px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 10px 20px;
+}
+
+.card .lorem{
+    /* text-align: center; */
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
 }
 
